@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5640" started-at="2018-06-19T13:51:14Z" finished-at="2018-06-19T13:51:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5640" started-at="2018-06-19T13:51:14Z" finished-at="2018-06-19T13:51:19Z">
+      <class name="com.qait.automation.Tatocwithts.TatocAutomation">
+        <test-method status="PASS" signature="clickBasicCourse()[pri:0, instance:com.qait.automation.Tatocwithts.TatocAutomation@2beee7ff]" name="clickBasicCourse" duration-ms="183" started-at="2018-06-19T19:21:14Z" finished-at="2018-06-19T19:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBasicCourse -->
+        <test-method status="PASS" signature="greenBox()[pri:0, instance:com.qait.automation.Tatocwithts.TatocAutomation@2beee7ff]" name="greenBox" duration-ms="173" started-at="2018-06-19T19:21:14Z" depends-on-methods="com.qait.automation.Tatocwithts.TatocAutomation.clickBasicCourse" finished-at="2018-06-19T19:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- greenBox -->
+        <test-method status="PASS" signature="frameDungeon()[pri:0, instance:com.qait.automation.Tatocwithts.TatocAutomation@2beee7ff]" name="frameDungeon" duration-ms="4444" started-at="2018-06-19T19:21:14Z" depends-on-methods="com.qait.automation.Tatocwithts.TatocAutomation.greenBox" finished-at="2018-06-19T19:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frameDungeon -->
+        <test-method status="PASS" signature="dragAndDrop()[pri:0, instance:com.qait.automation.Tatocwithts.TatocAutomation@2beee7ff]" name="dragAndDrop" duration-ms="239" started-at="2018-06-19T19:21:19Z" depends-on-methods="com.qait.automation.Tatocwithts.TatocAutomation.frameDungeon" finished-at="2018-06-19T19:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+        <test-method status="PASS" signature="popupWindows()[pri:0, instance:com.qait.automation.Tatocwithts.TatocAutomation@2beee7ff]" name="popupWindows" duration-ms="372" started-at="2018-06-19T19:21:19Z" depends-on-methods="com.qait.automation.Tatocwithts.TatocAutomation.dragAndDrop" finished-at="2018-06-19T19:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popupWindows -->
+        <test-method status="PASS" signature="tokenGeneration()[pri:0, instance:com.qait.automation.Tatocwithts.TatocAutomation@2beee7ff]" name="tokenGeneration" duration-ms="209" started-at="2018-06-19T19:21:19Z" depends-on-methods="com.qait.automation.Tatocwithts.TatocAutomation.popupWindows" finished-at="2018-06-19T19:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tokenGeneration -->
+      </class> <!-- com.qait.automation.Tatocwithts.TatocAutomation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
